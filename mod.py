@@ -8,7 +8,8 @@ def create_connection():
         host="localhost",
         user="root",
         password="Deepak@26",
-        database="Demo"
+        database="Demo",
+        port=3306
     )
 
 # Helper functions
